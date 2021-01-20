@@ -1,0 +1,14 @@
+<div class="content" role="main">
+  <h2>Home Page</h2>
+  <div class="terms-cl" style="float: right;width: 100%;padding-bottom: 20px;padding-top: 10px;">
+    <button type="submit" class="registerbtn" (click)="addForm()">Upload Doc</button>
+  </div>
+
+  <div>
+    <div class="row">
+      <div class="column" *ngFor="let img of documentList; let i = index" (click)="editDetail(img)">
+        <img [src]="img.image" alt="Snow" style="width:100%;     height: 300px;">
+      </div>
+    </div>
+  </div>
+</div>

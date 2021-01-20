@@ -1,0 +1,17 @@
+.terms-body h1 {
+    font-size: 30px;
+    line-height: 60px;
+    color: #1f201e;
+    font-family: "Adelle";
+    font-weight: bold;
+    color: #1f201e;
+    text-align: center;
+}
+
+.terms-body {
+    padding: 10px 30px;
+}
+
+.terms-body p {
+    text-align: justify;
+}

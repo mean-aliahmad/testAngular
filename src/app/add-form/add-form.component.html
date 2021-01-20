@@ -1,0 +1,16 @@
+<form action="action_page.php">
+    <div class="content">
+        <h1>Add Doc</h1>
+        <div>
+            <div class="terms-cl" style="background-color: #28a79d;width: 300px;padding: 24px;">
+                <input #file type="file" class="" (change)="fileChangeEvent($event, file.files)" />
+            </div>
+            <div style="text-align: center; margin: 5% 1% 5% 0%;">
+                <img [src]="croppedImage" [style.border]="croppedImage ? '1px solid black' : 'none'" />
+            </div>
+        </div>
+        <div class="terms-cl" style="float: right;width: 100%;padding-bottom: 20px;padding-top: 10px;">
+            <button type="submit" class="registerbtn" (click)="onSubmitForm()">Upload Doc</button>
+        </div>
+    </div>
+</form>
